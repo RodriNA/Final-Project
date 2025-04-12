@@ -9,7 +9,7 @@ function changeBackground(color) {
     }
     
 function randomColor() {
-    let colors = ["red", "orange", "yellow", "lime", "cyan", "blue", "purple"];
+    let colors = ["red", "orange", "yellow", "green", "lime", "cyan", "blue", "indigo", "purple"];
     let randomColor = colors[Math.floor(Math.random() * colors.length)];
     changeBackground(randomColor);
     if (textBox.value == randomColor) {
